@@ -37,11 +37,9 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
-brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -53,16 +51,9 @@ brew install woff2
 brew install aircrack-ng
 brew install bfg
 brew install binutils
-brew install binwalk
 brew install cifer
-brew install dex2jar
 brew install dns2tcp
 brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
 brew install netpbm
 brew install nmap
 brew install pngcheck
@@ -74,6 +65,7 @@ brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
 brew install xz
+brew install dnsmasq
 
 # Install other useful binaries.
 brew install ack
